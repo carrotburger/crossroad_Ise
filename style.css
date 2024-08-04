@@ -54,7 +54,7 @@ li{
 }
 
 #hero {
-   background-image: url(./images/Dishes.jpg);
+   background-image: url("https://github.com/carrotburger/crossroad_Ise/blob/main/Dishes.jpg?raw=true");
    background-position: center;
    background-size: cover;
    height: 900px;
