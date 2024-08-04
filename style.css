@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+html{margin: 0;
+     padding: 0;}
+body{margin: 0;
+     padding: 0;
+     color: #19448e;
+     line-height: 1.5;
+     background-color: #fbfaf5}
+
+
+.container{
+    width: 90%;
+    min-width: 1120px;
+    margin: 0 
+    auto;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header {
+ padding: 27px 0;
+
+}
+.logo {
+ font-size: 24px;
+ font-weight: 700;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.header_menu li {
+    margin-left: 40px;
+}
+.header_menu li a {
+    transition: .3s;
+}
+.header_menu li a:hover {
+    color: #19448e;
+    transition: .3s;
+}
+
+#hero {
+   background-image: url(./images/Dishes.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 900px;
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+}
+
+.hero_inner {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+.hero_inner h1 {
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+}
+.button_wrapper {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-square-shadow {
+    display: inline-block;
+    position: relative;
+    padding: 0.5em 1em;
+    font-size: 30px;
+    min-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #668ad8;
+    color: #fff;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.btn-square-shadow:active {
+    /*ボタンを押したとき*/      
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
+
+#hero2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    padding: 10px, 0;
+    margin: 0, auto;
+    font-size: 25px;
+   
+}
+
+
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#description {
+    color: black;
+    background-color: rgb(231, 231, 231);
+}
+
+.news .inner {
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+
+.news ul {
+    margin-bottom: 100px;
+} 
+
+.news {
+    border-bottom: 1px dotted #ccc;
+    padding: 5px 0;
+}
+
+.news li span {
+    margin-right: 30px;
+}
+
+.news-btn {
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: #19448e;
+    background-color: #e2e4e4;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 0;
+    border: 1px solid #19448e;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.7);
+}
+
+.news-btn:hover {
+    opacity: 0.7;
+}
+
+.locations {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.line {
+    position: relative;
+    text-align: center;
+}
+
+#hero3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e2e2e2;
+}
+h7 {
+    position: absolute;
+    text-align: center;
+}
+
+h8 {text-align: center;}
+h9 {
+    color: rgb(0, 0, 0);
+}
+
+h10 {color: rgb(0, 0, 0);
+}
+
+h11 {color: rgb(0, 0, 0);
+}
+
+.footer {
+    text-align: center;
+}
